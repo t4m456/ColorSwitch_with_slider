@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Colorswitch with slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="main-box">
+    <div class="output-box">
+      <h1 >My color is changing</h1>
+    </div>
+        <div class="button-box">
+          <div class="red-box">
+         
+            <h3>R <span class="red-count-box">0</span></h3>
+          
+  <input type="range" min="0" max="255" value="0"  id="red-slider">
+          </div>
+          <br>
+          <br>
+          
+         <div class="green-box">
+          
+            <h3>G <span class="green-count-box">0</span></h3>
+      
+           <input type="range" min="0" max="255" value="0"  id="green-slider">
+          
+          </div>
+          <br>
+          <br>
+           
+         <div class="blue-box">
+          
+            <h3>B <span class="blue-count-box">0</span></h3>
+           
+           <input type="range" min="0" max="255" value="0"  id="blue-slider">
+        
+           </div>
+          
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+         
+      </div>
+     <br>
+     <br>
+    <button class="switch-button" >CLICK ME FIRST!</button>
+     <br>
+     <br>
+    <h2>Text RGB: <span class="text-rgb-out">rgb(0, 0, 0)</span> </h2>
+    <h2>Background RGB: <span class="background-rgb-out">rgb(0, 0, 0)</span> </h2>
+  </div>
+</body>
+<script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
